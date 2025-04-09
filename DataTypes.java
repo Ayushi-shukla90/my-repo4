@@ -1,4 +1,4 @@
-public class DataTypesExample {
+public class DataTypes {
     public static void main(String[] args) {
         // Integer type (whole numbers)
         int number = 100;
