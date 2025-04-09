@@ -1,5 +1,5 @@
 public class DataTypes {
-    public static void main(String[] var0) {
+    public static void main(String[] args) {
         byte var1 = 100;
         float var2 = 3.14F;
         double var3 = 2.71828;
