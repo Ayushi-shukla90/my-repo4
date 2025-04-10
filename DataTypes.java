@@ -4,7 +4,7 @@ public class DataTypes {
         float var2 = 3.14F;
         double var3 = 2.71828;
         char var5 = 'A';
-        boolean var6 = true;
+        boolean var6 = true; 
         String var7 = "Hello, Java!";
         System.out.println("Integer: " + var1);
         System.out.println("Float: " + var2);
