@@ -1,6 +1,6 @@
 public class code {
     public static void main(String[] args) {
-        int a=4;
+    int a = 5;
         switch(a){
             case 1: 
             case 2:
