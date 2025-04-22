@@ -2,15 +2,20 @@
 class string1 {
 
     public static void main(String[] args) {
-        String palindrone = "racecarjhdgahaha";
-        char[] r = {'a','e','i','o','u'};
-        char[] arr = palindrone.toCharArray();
-        int count;
-        for (int i = 0; i <= arr.length; i++) {
-            if() {
-                System.out.println();
+        String palindrome = "racecarjhdgahaha";
+        char[] vowels = {'a', 'e', 'i', 'o', 'u'};
+        char[] arr = palindrome.toCharArray();
+        int count = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            for (char vowel : vowels) {
+                if (arr[i] == vowel) {
+                    System.out.println("Vowel found: " + arr[i]);
+                    count++;
+                }
             }
-            count ++;
         }
+
+        System.out.println("Total vowels: " + count);
     }
 }
