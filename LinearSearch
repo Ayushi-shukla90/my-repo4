@@ -8,7 +8,7 @@ class LinearSearch{
             }
         }
     }
-    public static void BubbleSort(int[] arr) {
+    public static void main(String[] arr) {
        int[] arr = {53,56,2,6,7,24,7,8};
         int target = 5;
        LinearSearch(arr,target);
