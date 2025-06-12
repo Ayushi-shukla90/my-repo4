@@ -9,4 +9,4 @@ class naturalreverse {
             System.out.println(i);
         }
     }
-}
+} 
